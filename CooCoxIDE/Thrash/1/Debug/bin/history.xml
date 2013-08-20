@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="4.5.2 -O3 -nostartfiles -Map=1.map -mcpu=cortex-m3 -mthumb -LC:\CooCox\CoIDE\workspace\1 --gc-sections -TC:\CooCox\CoIDE\workspace\1\link.ld -g">
-      <target file="1.elf" lastModified="14096db843d">
-         <source file="..\obj\core_cm3.o" lastModified="14096db7dd4"/>
-         <source file="..\obj\system_stm32f10x.o" lastModified="14096db7ec2"/>
-         <source file="..\obj\stm32f10x_gpio.o" lastModified="14096db8018"/>
-         <source file="..\obj\main.o" lastModified="14096db80ae"/>
-         <source file="..\obj\stm32f10x_rcc.o" lastModified="14096db8272"/>
-         <source file="..\obj\startup_stm32f10x_cl.o" lastModified="14096db8312"/>
+   <processor signature="4.5.2 -O3 -nostartfiles -Map=1.map -mcpu=cortex-m3 -mthumb -LD:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\1 --gc-sections -TD:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\1\link.ld -g">
+      <target file="1.elf" lastModified="1409bee7718">
+         <source file="..\obj\core_cm3.o" lastModified="1409bee7122"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1409bee71d8"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1409bee7314"/>
+         <source file="..\obj\main.o" lastModified="1409bee73c4"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1409bee7564"/>
+         <source file="..\obj\startup_stm32f10x_cl.o" lastModified="1409bee75dd"/>
       </target>
    </processor>
 </history>

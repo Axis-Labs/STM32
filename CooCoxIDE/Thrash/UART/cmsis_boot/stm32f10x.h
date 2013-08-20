@@ -49,7 +49,9 @@
     
 #ifndef __STM32F10x_H
 #define __STM32F10x_H
+
 #define HSE_VALUE 8000000
+
 #ifdef __cplusplus
  extern "C" {
 #endif 
@@ -61,7 +63,7 @@
 /* Uncomment the line below according to the target STM32 device used in your
    application 
   */
-
+//#define HSE_VALUE 8000000
 #if !defined (STM32F10X_LD) && !defined (STM32F10X_LD_VL) && !defined (STM32F10X_MD) && !defined (STM32F10X_MD_VL) && !defined (STM32F10X_HD) && !defined (STM32F10X_HD_VL) && !defined (STM32F10X_XL) && !defined (STM32F10X_CL) 
   /* #define STM32F10X_LD */     /*!< STM32F10X_LD: STM32 Low density devices */
   /* #define STM32F10X_LD_VL */  /*!< STM32F10X_LD_VL: STM32 Low density Value Line devices */  

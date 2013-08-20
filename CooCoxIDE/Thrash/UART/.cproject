@@ -30,16 +30,17 @@
 				</externalSettings>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 			<storageModule moduleId="org.eclipse.cdt.core.pathentry">
 				<pathentry kind="src" path=""/>
 				<pathentry include="C:/CooCox/CoIDE/gcc/Sourcery G++ Lite/arm-none-eabi/include" kind="inc" path="" system="true"/>
 				<pathentry include="C:/CooCox/CoIDE/gcc/Sourcery G++ Lite/lib/gcc/arm-none-eabi/4.5.2/include" kind="inc" path="" system="true"/>
 				<pathentry include="C:/CooCox/CoIDE/gcc/Sourcery G++ Lite/lib/gcc/arm-none-eabi/4.5.2/include-fixed" kind="inc" path="" system="true"/>
-				<pathentry include="D:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/1" kind="inc" path="" system="true"/>
-				<pathentry include="D:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/1/cmsis" kind="inc" path="" system="true"/>
-				<pathentry include="D:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/1/cmsis_boot" kind="inc" path="" system="true"/>
-				<pathentry include="D:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/1/stm_lib" kind="inc" path="" system="true"/>
-				<pathentry include="D:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/1/stm_lib/inc" kind="inc" path="" system="true"/>
+				<pathentry include="D:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/UART" kind="inc" path="" system="true"/>
+				<pathentry include="D:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/UART/cmsis" kind="inc" path="" system="true"/>
+				<pathentry include="D:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/UART/cmsis_boot" kind="inc" path="" system="true"/>
+				<pathentry include="D:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/UART/stm_lib" kind="inc" path="" system="true"/>
+				<pathentry include="D:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/UART/stm_lib/inc" kind="inc" path="" system="true"/>
 				<pathentry kind="mac" name="__GNUC__" path="" value=""/>
 				<pathentry kind="mac" name="STM32F10X_CL" path="" value=""/>
 				<pathentry kind="mac" name="USE_STDPERIPH_DRIVER" path="" value=""/>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.5.2 -O0 -nostartfiles -Map=UART.map -mcpu=cortex-m3 -mthumb -LD:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\UART --gc-sections -TD:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\UART\link.ld -g">
+      <target file="UART.elf" lastModified="1409c2700e2">
+         <source file="..\obj\core_cm3.o" lastModified="1409c26fb59"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1409c26fbf9"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1409c26fca6"/>
+         <source file="..\obj\main.o" lastModified="1409c26fd7a"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1409c26fea3"/>
+         <source file="..\obj\startup_stm32f10x_cl.o" lastModified="1409c26ff05"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1409c26ffe9"/>
+      </target>
+   </processor>
+</history>

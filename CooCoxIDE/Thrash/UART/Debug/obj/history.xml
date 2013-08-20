@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -O0 -g -c -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F105RC -I. -Istm_lib -Istm_lib\inc -Icmsis_boot -Icmsis">
+      <target file="stm32f10x_rcc.o" lastModified="1409c26fea3">
+         <source file="..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1409acd7342"/>
+      </target>
+      <target file="core_cm3.o" lastModified="1409c26fb59">
+         <source file="..\..\cmsis\core_cm3.c" lastModified="1409acd722b"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1409c26fbf9">
+         <source file="..\..\cmsis_boot\system_stm32f10x.c" lastModified="1409b746510"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1409c26ffe9">
+         <source file="..\..\stm_lib\src\stm32f10x_usart.c" lastModified="1409acd6d2d"/>
+      </target>
+      <target file="main.o" lastModified="1409c26fd7a">
+         <source file="..\..\main.c" lastModified="1409c26f3c5"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1409c26fca6">
+         <source file="..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1409acd73b2"/>
+      </target>
+      <target file="startup_stm32f10x_cl.o" lastModified="1409c26ff05">
+         <source file="..\..\cmsis_boot\startup\startup_stm32f10x_cl.c" lastModified="1409acd7043"/>
+      </target>
+   </processor>
+</history>
