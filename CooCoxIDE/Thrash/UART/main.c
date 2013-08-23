@@ -15,7 +15,6 @@ void Delay(void)
 
 
 
-
 int main(void)
 {
 	
@@ -39,9 +38,6 @@ int main(void)
   GPIO_init_structure.GPIO_Pin   = GPIO_Pin_3 | GPIO_Pin_4 | GPIO_Pin_5;       // two LED (guess on what pin!!)
   GPIO_Init(GPIOC, &GPIO_init_structure);
 
-
-
-
   // init USART1.
   USART_InitTypeDef USART_InitStruct;
   USART_InitStruct.USART_BaudRate = 9600;
@@ -64,24 +60,11 @@ int main(void)
 
 
 
-
-
-
-
-
-
-
-
     	 while(!(USART1->SR & USART_SR_RXNE)); // wait for byte will be recieved.
 	GPIO_WriteBit(GPIOC,GPIO_Pin_5,Bit_RESET);
 	data=USART1->DR;
 	Delay();
 	GPIO_WriteBit(GPIOC,GPIO_Pin_5,Bit_SET);
-
-
-
-
-
 
 
 
