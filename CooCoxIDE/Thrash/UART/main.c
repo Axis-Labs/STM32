@@ -7,9 +7,8 @@
 #include <stm32f10x_usart.h>
 
 
-
-
-void Delay(void) {
+void Delay(void)
+{
   volatile uint32_t i;
   for (i=0; i != 0x1000; i++);
 }
@@ -31,24 +30,17 @@ int main(void)
   GPIO_init_structure.GPIO_Mode = GPIO_Mode_AF_PP;
   GPIO_Init(GPIOA, &GPIO_init_structure);
 
-    GPIO_init_structure.GPIO_Pin = GPIO_Pin_10;
-    GPIO_init_structure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
-    GPIO_Init(GPIOA, &GPIO_init_structure);
+  GPIO_init_structure.GPIO_Pin = GPIO_Pin_10;
+  GPIO_init_structure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+  GPIO_Init(GPIOA, &GPIO_init_structure);
 
-    GPIO_init_structure.GPIO_Speed = GPIO_Speed_50MHz;
-            GPIO_init_structure.GPIO_Mode  = GPIO_Mode_Out_PP;
-            GPIO_init_structure.GPIO_Pin   = GPIO_Pin_3 | GPIO_Pin_4 | GPIO_Pin_5;       // two LED (guess on what pin!!)
-            GPIO_Init(GPIOC, &GPIO_init_structure);
+  GPIO_init_structure.GPIO_Speed = GPIO_Speed_50MHz;
+  GPIO_init_structure.GPIO_Mode  = GPIO_Mode_Out_PP;
+  GPIO_init_structure.GPIO_Pin   = GPIO_Pin_3 | GPIO_Pin_4 | GPIO_Pin_5;       // two LED (guess on what pin!!)
+  GPIO_Init(GPIOC, &GPIO_init_structure);
 
 
 
- // ����������� UART
- // USART1->BRR=0x9c4; //BaudRate 9600
- // USART1->CR1 |= USART_CR1_UE; //��������� ������ USART1
- // USART1->CR1 |= USART_CR1_TE; //�������� ����������
-  //��� ��������� ��������� (���� ����, ��������,���-�� ���� ������) ��� ���������
-  //��� ����, (�� ��� ��� ���� �� ��������� �������� ����), ����� ������� �� �����
-  // �������� 9600 1 ���� ���, 8 ��� ������, ��� �������� ��������
 
   // init USART1.
   USART_InitTypeDef USART_InitStruct;
@@ -94,11 +86,11 @@ int main(void)
 
 
 
-	  while(!(USART1->SR & USART_SR_TC)); // wait for previous transmition.
-	  GPIO_WriteBit(GPIOC,GPIO_Pin_4,Bit_RESET);
-	  USART1->DR=data; 
-	  	Delay();
-	  	GPIO_WriteBit(GPIOC,GPIO_Pin_4,Bit_SET);
+	     while(!(USART1->SR & USART_SR_TC)); // wait for previous transmition.
+	 GPIO_WriteBit(GPIOC,GPIO_Pin_4,Bit_RESET);
+	 USART1->DR=data;
+	 Delay();
+	 GPIO_WriteBit(GPIOC,GPIO_Pin_4,Bit_SET);
 
 
 
