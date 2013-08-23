@@ -1,6 +1,6 @@
-// inc.
+// Define for HSE Frequrency in Hz.
 #define HSE_VALUE 8000000
-
+// inc.
 #include <stm32f10x.h>
 #include <stm32f10x_rcc.h>
 #include <stm32f10x_gpio.h>
@@ -8,7 +8,7 @@
 
 
 
-//Функция предназначена для формирования небольшой задержки
+
 void Delay(void) {
   volatile uint32_t i;
   for (i=0; i != 0x1000; i++);
@@ -19,12 +19,13 @@ void Delay(void) {
 
 int main(void)
 {
-	unsigned char data,i,j = 0;
-	unsigned char buf[10];
+	
+  unsigned char data;
+  
   GPIO_InitTypeDef GPIO_init_structure;
-  // Включаем тактирование порта А и USART1
+  //initalize clock on gpio & USART1.
   RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA |RCC_APB2Periph_GPIOC| RCC_APB2Periph_USART1, ENABLE);
-  // Настраиваем ногу TxD (PA9) как выход push-pull c AF mode.
+  // set Pin TxD (PA9) to push-pull mode with Alternate Function (AF).
   GPIO_init_structure.GPIO_Pin = GPIO_Pin_9;
   GPIO_init_structure.GPIO_Speed = GPIO_Speed_50MHz;
   GPIO_init_structure.GPIO_Mode = GPIO_Mode_AF_PP;
@@ -41,14 +42,15 @@ int main(void)
 
 
 
- // Настраиваем UART
+ // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ UART
  // USART1->BRR=0x9c4; //BaudRate 9600
- // USART1->CR1 |= USART_CR1_UE; //Разрешаем работу USART1
- // USART1->CR1 |= USART_CR1_TE; //Включаем передатчик
-  //Все остальные параметры (стоп биты, чётность,кол-во байт данных) уже настроены
-  //как надо, (во все эти биты по умолчанию записаны нули), таким образом мы имеем
-  // скорость 9600 1 стоп бит, 8 бит данных, без проверки чётности
+ // USART1->CR1 |= USART_CR1_UE; //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ USART1
+ // USART1->CR1 |= USART_CR1_TE; //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  //пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ,пїЅпїЅпїЅ-пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ) пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  //пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, (пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ), пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 9600 1 пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ, 8 пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
+  // init USART1.
   USART_InitTypeDef USART_InitStruct;
   USART_InitStruct.USART_BaudRate = 9600;
   USART_InitStruct.USART_WordLength = USART_WordLength_8b;
@@ -62,10 +64,10 @@ int main(void)
   USART_Cmd(USART1,ENABLE);
 
 
-   GPIOC->ODR |= (1<<4|1<<3|1<<5);
+   GPIOC->ODR |= (1<<4|1<<3|1<<5); // set all led_OFF.
 
 
-  while(1)
+  while(1) // infinite loop.
   {
 
 
@@ -78,9 +80,9 @@ int main(void)
 
 
 
-    	 while(!(USART1->SR & USART_SR_RXNE));
+    	 while(!(USART1->SR & USART_SR_RXNE)); // wait for byte will be recieved.
 	GPIO_WriteBit(GPIOC,GPIO_Pin_5,Bit_RESET);
-	buf[i]=USART1->DR;
+	data=USART1->DR;
 	Delay();
 	GPIO_WriteBit(GPIOC,GPIO_Pin_5,Bit_SET);
 
@@ -92,9 +94,9 @@ int main(void)
 
 
 
-	  while(!(USART1->SR & USART_SR_TC)); //Ждем пока бит TC в регистре SR станет 1
+	  while(!(USART1->SR & USART_SR_TC)); // wait for previous transmition.
 	  GPIO_WriteBit(GPIOC,GPIO_Pin_4,Bit_RESET);
-	  USART1->DR=buf[j]; //Отсылаем байт через UART
+	  USART1->DR=data; 
 	  	Delay();
 	  	GPIO_WriteBit(GPIOC,GPIO_Pin_4,Bit_SET);
 
