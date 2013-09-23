@@ -11,23 +11,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="E:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/DAC/main.c" title="main.c" tooltip="E:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/DAC/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DAC/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3295" selectionTopPixel="1620"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x.h" partName="stm32f10x.h" path="E:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/DAC/cmsis_boot/stm32f10x.h" title="stm32f10x.h" tooltip="E:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/DAC/cmsis_boot/stm32f10x.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DAC/cmsis_boot/stm32f10x.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="92" selectionOffset="5889" selectionTopPixel="1802"/>
-</editor>
-<editor id="org.coocox.builder.ui.editors.ConfigEditor" name="" partName="Configuration" title="Configuration" tooltip="" workbook="DefaultEditorWorkbook">
-<input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">&#x0A;<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="1" verticalPosition="0"/>
-</input>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3356" selectionTopPixel="576"/>
 </editor>
 </editors>
 <views>
@@ -284,19 +274,11 @@
 <editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
 <org.coocox.builder.ui.editors.ConfigEditor/>
 </editor>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
+<org.coocox.builder.ui.editors.ConfigEditor/>
+</editor>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DAC/cmsis_boot/stm32f10x.h"/>
 </editors>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="379" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5862" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4869" y="0"/>
-</item>
 <item historyLabel="stm32f10x_adc.h" index="1">
 <position info="not_deleted" x="11106" y="10"/>
 </item>
@@ -414,8 +396,18 @@
 <item historyLabel="main.c" index="14">
 <position info="not_deleted" x="3324" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="14">
+<item historyLabel="main.c" index="14">
 <position info="not_deleted" x="3313" y="0"/>
+</item>
+<item historyLabel="Configuration" index="19"/>
+<item historyLabel="main.c" index="14">
+<position info="not_deleted" x="2863" y="0"/>
+</item>
+<item historyLabel="stm32f10x.h" index="20">
+<position info="not_deleted" x="5889" y="92"/>
+</item>
+<item active="true" historyLabel="main.c" index="14">
+<position info="not_deleted" x="2863" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -424,11 +416,6 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor" name="" tooltip="">
-<persistable>
-<org.coocox.builder.ui.editors.ConfigEditor/>
-</persistable>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x.h" tooltip="DAC/cmsis_boot/stm32f10x.h">
 <persistable path="/DAC/cmsis_boot/stm32f10x.h"/>
 </file>
@@ -468,6 +455,9 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="periph.c" tooltip="E:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\Wheels\Wheels v0.1\periph.c">
 <persistable uri="file:/E:/Dropbox/ASyS/github/STM32/CooCoxIDE/Thrash/Wheels/Wheels%20v0.1/periph.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x.h" tooltip="DAC/cmsis_boot/stm32f10x.h">
+<persistable path="/DAC/cmsis_boot/stm32f10x.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x.h" tooltip="DAC/cmsis_boot/stm32f10x.h">
 <persistable path="/DAC/cmsis_boot/stm32f10x.h"/>
