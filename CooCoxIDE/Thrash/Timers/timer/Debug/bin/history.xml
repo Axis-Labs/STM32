@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.5.2 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=timer.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\timer -TC:\CooCox\CoIDE\configuration\ProgramData\timer/link.ld -g">
+      <target file="timer.elf" lastModified="1414b373a9f">
+         <source file="..\obj\core_cm3.o" lastModified="1414b3735dc"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1414b373678"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1414b373724"/>
+         <source file="..\obj\main.o" lastModified="1414b373782"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1414b37382e"/>
+         <source file="..\obj\startup_stm32f10x_cl.o" lastModified="1414b37387c"/>
+      </target>
+   </processor>
+</history>
