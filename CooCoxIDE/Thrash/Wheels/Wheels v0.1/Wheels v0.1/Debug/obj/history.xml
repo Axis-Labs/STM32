@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O1 -c -DSTM32F105RC -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IE:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\Wheels\Wheels v0.1\cmsis -IE:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\Wheels\Wheels v0.1\stm_lib -IE:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\Wheels\Wheels v0.1 -IE:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\Wheels\Wheels v0.1\cmsis_boot -IE:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\Wheels\Wheels v0.1\stm_lib\inc -IE:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\Wheels -IE:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash">
+      <target file="stm32f10x_adc.o" lastModified="14117d05ed6">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="14108229403"/>
+      </target>
+      <target file="startup_stm32f10x_cl.o" lastModified="14117d05dcc">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_cl.c" lastModified="140ed80d99c"/>
+      </target>
+      <target file="core_cm3.o" lastModified="14117d05763">
+         <source file="..\..\..\cmsis\core_cm3.c" lastModified="140ed80da02"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14117d0581f">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="140ed80d9c3"/>
+      </target>
+      <target file="main.o" lastModified="14117d05be8">
+         <source file="..\..\..\main.c" lastModified="14117d0509d"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="14117d05fb0">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="140ed80f28b"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="14117d05b5b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="140ed80d878"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="14117d05d5f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="140ed80da48"/>
+      </target>
+      <target file="filmobus3.o" lastModified="14117d05a22">
+         <source file="..\..\..\filmobus3.c" lastModified="14107857933"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="14117d0605c">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="1410772262e"/>
+      </target>
+   </processor>
+</history>

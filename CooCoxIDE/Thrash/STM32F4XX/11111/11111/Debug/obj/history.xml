@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O2 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IE:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\STM32F4XX\11111 -IE:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\STM32F4XX\11111\cmsis_boot -IE:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\STM32F4XX -IE:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\STM32F4XX\11111\cmsis_lib -IE:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\STM32F4XX\11111\cmsis -IE:\Dropbox\ASyS\github\STM32\CooCoxIDE\Thrash\STM32F4XX\11111\cmsis_lib\include">
+      <target file="stm32f4xx_rcc.o" lastModified="14117e0a2a7">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="140eac92710"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14117e0a47c">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="140eac92710"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14117e0a3b1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="140eac92710"/>
+      </target>
+      <target file="main.o" lastModified="14117e0a094">
+         <source file="..\..\..\main.c" lastModified="14117d9b5c4"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="14117e09f0d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="140eacd3620"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14117e09fd8">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="140eac92710"/>
+      </target>
+   </processor>
+</history>

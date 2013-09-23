@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.5.2 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Wheels v0.1.map -O1 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\Wheels v0.1 -TC:\CooCox\CoIDE\configuration\ProgramData\Wheels v0.1/link.ld -g">
+      <target file="Wheels v0.1.elf" lastModified="14117d0628f">
+         <source file="..\obj\core_cm3.o" lastModified="14117d05763"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="14117d0581f"/>
+         <source file="..\obj\filmobus3.o" lastModified="14117d05a22"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="14117d05b5b"/>
+         <source file="..\obj\main.o" lastModified="14117d05be8"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="14117d05d5f"/>
+         <source file="..\obj\startup_stm32f10x_cl.o" lastModified="14117d05dcc"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="14117d05ed6"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="14117d05fb0"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="14117d0605c"/>
+      </target>
+   </processor>
+</history>

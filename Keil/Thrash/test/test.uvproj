@@ -337,7 +337,7 @@
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>0</OneElfS>
-            <Strict>0</Strict>
+            <Strict>1</Strict>
             <EnumInt>0</EnumInt>
             <PlainCh>0</PlainCh>
             <Ropi>0</Ropi>
@@ -404,6 +404,11 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>IO.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\IO.c</FilePath>
             </File>
           </Files>
         </Group>

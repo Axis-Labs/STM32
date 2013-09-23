@@ -1,0 +1,107 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\main.o
+ .data          0x00000000        0x0 ..\obj\main.o
+ .bss           0x00000000        0x0 ..\obj\main.o
+ .text.main     0x00000000        0x8 ..\obj\main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00100000         xr
+ram              0x20000000         0x00020000         xrw
+ram1             0x10000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20020000                _eram = 0x20020000
+
+.text           0x08000000        0x0
+ *(.isr_vector .isr_vector.*)
+ *(.text .text.* .gnu.linkonce.t.*)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+
+.vfp11_veneer   0x08000000        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08000000        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08000000                . = ALIGN (0x4)
+                0x08000000                _etext = .
+                0x08000000                _sidata = .
+
+.data           0x20000000        0x0 load address 0x00000000
+                0x20000000                _sdata = .
+ *(.data .data.*)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _edata = .
+
+.bss            0x20000000        0x0
+                0x20000000                _sbss = .
+ *(.bss .bss.*)
+ *(COMMON)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _ebss = .
+
+.co_stack       0x20000000        0x0
+                0x20000000                . = ALIGN (0x8)
+ *(.co_stack .co_stack.*)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _end = .
+LOAD ..\obj\main.o
+START GROUP
+LOAD c:/coocox/coide/gcc/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/armv6-m\libgcc.a
+LOAD c:/coocox/coide/gcc/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/armv6-m\libc.a
+END GROUP
+OUTPUT(11111.elf elf32-littlearm)
+
+.debug_abbrev   0x00000000       0x36
+ .debug_abbrev  0x00000000       0x36 ..\obj\main.o
+
+.debug_info     0x00000000       0x46
+ .debug_info    0x00000000       0x46 ..\obj\main.o
+
+.debug_line     0x00000000       0x59
+ .debug_line    0x00000000       0x59 ..\obj\main.o
+
+.debug_loc      0x00000000       0x2c
+ .debug_loc     0x00000000       0x2c ..\obj\main.o
+
+.debug_pubnames
+                0x00000000       0x1b
+ .debug_pubnames
+                0x00000000       0x1b ..\obj\main.o
+
+.debug_aranges  0x00000000       0x20
+ .debug_aranges
+                0x00000000       0x20 ..\obj\main.o
+
+.debug_ranges   0x00000000       0x10
+ .debug_ranges  0x00000000       0x10 ..\obj\main.o
+
+.debug_str      0x00000000       0x38
+ .debug_str     0x00000000       0x38 ..\obj\main.o
+
+.comment        0x00000000       0x2a
+ .comment       0x00000000       0x2a ..\obj\main.o
+                                 0x2b (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\main.o
+
+.debug_frame    0x00000000       0x2c
+ .debug_frame   0x00000000       0x2c ..\obj\main.o

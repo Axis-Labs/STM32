@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.5.2 -O0 -nostartfiles -Map=11111.map -mcpu=cortex-m0 -mthumb -LC:\CooCox\CoIDE\workspace\11111 -TC:\CooCox\CoIDE\workspace\11111\link.ld --gc-sections -g">
+      <target file="11111.elf" lastModified="140eab7984d">
+         <source file="..\obj\main.o" lastModified="140eab79812"/>
+      </target>
+   </processor>
+</history>

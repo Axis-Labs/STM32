@@ -3,259 +3,462 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-D:\keil\test\test.uvproj
+E:\Dropbox\ASyS\github\STM32\Keil\Thrash\test\test.uvproj
 Project File Date:  08/19/2013
 
 <h2>Output:</h2>
 Build target 'Target 1'
-compiling main.c...
-main.c(48): warning:  #1-D: last line of file ends without a newline
-linking...
-.\obj\test.axf: Error: L6218E: Undefined symbol SystemInit (referred from startup_stm32f10x_cl.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol GPIO_Init (referred from main.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol GPIO_ResetBits (referred from main.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol GPIO_SetBits (referred from main.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol RCC_APB2PeriphClockCmd (referred from main.o).
-Target not created
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(48): warning:  #1-D: last line of file ends without a newline
-linking...
-.\obj\test.axf: Error: L6218E: Undefined symbol SystemInit (referred from startup_stm32f10x_cl.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol GPIO_Init (referred from main.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol RCC_APB2PeriphClockCmd (referred from main.o).
-Target not created
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(48): warning:  #1-D: last line of file ends without a newline
-linking...
-.\obj\test.axf: Error: L6218E: Undefined symbol SystemInit (referred from startup_stm32f10x_cl.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol GPIO_Init (referred from main.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol RCC_APB2PeriphClockCmd (referred from main.o).
-Target not created
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-linking...
-.\obj\test.axf: Error: L6218E: Undefined symbol SystemInit (referred from startup_stm32f10x_cl.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol GPIO_Init (referred from main.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol RCC_APB2PeriphClockCmd (referred from main.o).
-Target not created
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-linking...
-.\obj\test.axf: Error: L6218E: Undefined symbol SystemInit (referred from startup_stm32f10x_cl.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol GPIO_Init (referred from main.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol RCC_APB2PeriphClockCmd (referred from main.o).
-Target not created
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
-Target not created
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
-Target not created
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-linking...
-.\obj\test.axf: Error: L6218E: Undefined symbol SystemInit (referred from startup_stm32f10x_cl.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol GPIO_Init (referred from main.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol RCC_APB2PeriphClockCmd (referred from main.o).
-Target not created
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-linking...
-.\obj\test.axf: Error: L6218E: Undefined symbol SystemInit (referred from startup_stm32f10x_cl.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol GPIO_Init (referred from main.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol RCC_APB2PeriphClockCmd (referred from main.o).
-Target not created
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-linking...
-.\obj\test.axf: Error: L6218E: Undefined symbol SystemInit (referred from startup_stm32f10x_cl.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol GPIO_Init (referred from main.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol RCC_APB2PeriphClockCmd (referred from main.o).
-Target not created
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-linking...
-.\obj\test.axf: Error: L6218E: Undefined symbol SystemInit (referred from startup_stm32f10x_cl.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol GPIO_Init (referred from main.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol RCC_APB2PeriphClockCmd (referred from main.o).
-Target not created
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-compiling stm32f10x_gpio.c...
-compiling stm32f10x_rcc.c...
-compiling system_stm32f10x.c...
-linking...
-.\obj\test.axf: Warning: L6304W: Duplicate input file .\obj\main.o ignored.
-Program Size: Code=3156 RO-data=368 RW-data=44 ZI-data=1636  
-FromELF: creating hex file...
-".\obj\test.axf" - 0 Error(s), 3 Warning(s).
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-compiling stm32f10x_gpio.c...
-compiling stm32f10x_rcc.c...
-compiling system_stm32f10x.c...
-linking...
-.\obj\test.axf: Warning: L6304W: Duplicate input file .\obj\main.o ignored.
-Program Size: Code=3156 RO-data=368 RW-data=44 ZI-data=1636  
-FromELF: creating hex file...
-".\obj\test.axf" - 0 Error(s), 3 Warning(s).
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-compiling stm32f10x_gpio.c...
-compiling stm32f10x_rcc.c...
-compiling system_stm32f10x.c...
-linking...
-.\obj\test.axf: Warning: L6304W: Duplicate input file .\obj\main.o ignored.
-Program Size: Code=3156 RO-data=368 RW-data=44 ZI-data=1636  
-FromELF: creating hex file...
-".\obj\test.axf" - 0 Error(s), 3 Warning(s).
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-compiling stm32f10x_gpio.c...
-compiling stm32f10x_rcc.c...
-compiling system_stm32f10x.c...
-linking...
-.\obj\test.axf: Warning: L6304W: Duplicate input file .\obj\main.o ignored.
-Program Size: Code=3156 RO-data=368 RW-data=44 ZI-data=1636  
-FromELF: creating hex file...
-".\obj\test.axf" - 0 Error(s), 3 Warning(s).
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-compiling stm32f10x_gpio.c...
-compiling stm32f10x_rcc.c...
-compiling system_stm32f10x.c...
-linking...
-Program Size: Code=3156 RO-data=368 RW-data=44 ZI-data=1636  
-FromELF: creating hex file...
-".\obj\test.axf" - 0 Error(s), 1 Warning(s).
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-linking...
-.\obj\test.axf: Error: L6218E: Undefined symbol SystemInit (referred from startup_stm32f10x_cl.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol GPIO_Init (referred from main.o).
-.\obj\test.axf: Error: L6218E: Undefined symbol RCC_APB2PeriphClockCmd (referred from main.o).
-Target not created
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-compiling stm32f10x_gpio.c...
-compiling stm32f10x_rcc.c...
-linking...
-.\obj\test.axf: Error: L6218E: Undefined symbol SystemInit (referred from startup_stm32f10x_cl.o).
-Target not created
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(50): warning:  #1-D: last line of file ends without a newline
-compiling stm32f10x_gpio.c...
-compiling stm32f10x_rcc.c...
-compiling system_stm32f10x.c...
-linking...
-Program Size: Code=3156 RO-data=368 RW-data=44 ZI-data=1636  
-FromELF: creating hex file...
-".\obj\test.axf" - 0 Error(s), 1 Warning(s).
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(15): warning:  #815-D: type qualifier on return type is meaningless
-main.c(15): warning:  #951-D: return type of function "main" must be "int"
-compiling stm32f10x_gpio.c...
-compiling stm32f10x_rcc.c...
-compiling system_stm32f10x.c...
-linking...
-Program Size: Code=3280 RO-data=368 RW-data=44 ZI-data=1636  
-FromELF: creating hex file...
-".\obj\test.axf" - 0 Error(s), 2 Warning(s).
-Load "D:\\keil\\test\\obj\\test.AXF" 
-Load "D:\\keil\\test\\obj\\test.AXF" 
-Load "D:\\keil\\test\\obj\\test.AXF" 
-Load "D:\\keil\\test\\obj\\test.AXF" 
-No Algorithm found for: 08000000H - 08000E6BH
-Erase skipped!
-Load "D:\\keil\\test\\obj\\test.AXF" 
-No Algorithm found for: 08000000H - 08000E6BH
-Erase skipped!
-Load "D:\\keil\\test\\obj\\test.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "D:\\keil\\test\\obj\\test.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "D:\\keil\\test\\obj\\test.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_cl.s...
-compiling main.c...
-main.c(15): warning:  #815-D: type qualifier on return type is meaningless
-main.c(15): warning:  #951-D: return type of function "main" must be "int"
-compiling stm32f10x_gpio.c...
-compiling stm32f10x_rcc.c...
-compiling system_stm32f10x.c...
-linking...
-Program Size: Code=2440 RO-data=368 RW-data=44 ZI-data=1636  
-FromELF: creating hex file...
-".\obj\test.axf" - 0 Error(s), 2 Warning(s).
-Load "D:\\keil\\test\\obj\\test.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(15): warning:  #815-D: type qualifier on return type is meaningless
-main.c(15): warning:  #951-D: return type of function "main" must be "int"
-compiling stm32f10x_gpio.c...
-compiling stm32f10x_rcc.c...
-compiling system_stm32f10x.c...
 linking...
 Program Size: Code=2444 RO-data=368 RW-data=44 ZI-data=1636  
 FromELF: creating hex file...
+".\obj\test.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+IO.c(7): error:  #20: identifier "GPIO_InitStructure" is undefined
+main.c(16): warning:  #815-D: type qualifier on return type is meaningless
+main.c(16): warning:  #951-D: return type of function "main" must be "int"
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling system_stm32f10x.c...
+Target not created
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+main.c(16): warning:  #815-D: type qualifier on return type is meaningless
+main.c(16): warning:  #951-D: return type of function "main" must be "int"
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=2480 RO-data=368 RW-data=44 ZI-data=1636  
+FromELF: creating hex file...
 ".\obj\test.axf" - 0 Error(s), 2 Warning(s).
-Load "D:\\keil\\test\\obj\\test.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+main.c(16): warning:  #815-D: type qualifier on return type is meaningless
+main.c(16): warning:  #951-D: return type of function "main" must be "int"
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=2452 RO-data=368 RW-data=40 ZI-data=1632  
+FromELF: creating hex file...
+".\obj\test.axf" - 0 Error(s), 2 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+main.c(12): warning:  #815-D: type qualifier on return type is meaningless
+main.c(12): warning:  #951-D: return type of function "main" must be "int"
+compiling IO.c...
+IO.c(6): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+IO.c(7): warning:  #223-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+IO.c(7): error:  #20: identifier "RCC_APB2Periph_GPIOC" is undefined
+IO.c(7): error:  #20: identifier "ENABLE" is undefined
+IO.c(8): error:  #20: identifier "GPIO_Speed_50MHz" is undefined
+IO.c(9): error:  #20: identifier "GPIO_Mode_Out_PP" is undefined
+IO.c(10): error:  #20: identifier "GPIO_Pin_3" is undefined
+IO.c(10): error:  #20: identifier "GPIO_Pin_4" is undefined
+IO.c(10): error:  #20: identifier "GPIO_Pin_5" is undefined
+IO.c(11): warning:  #223-D: function "GPIO_Init" declared implicitly
+IO.c(11): error:  #20: identifier "GPIOC" is undefined
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling system_stm32f10x.c...
+Target not created
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+main.c(12): warning:  #815-D: type qualifier on return type is meaningless
+main.c(12): warning:  #951-D: return type of function "main" must be "int"
+compiling IO.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling system_stm32f10x.c...
+linking...
+.\obj\test.axf: Error: L6200E: Symbol IO_init multiply defined (by io.o and main.o).
+Target not created
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+main.c(12): warning:  #815-D: type qualifier on return type is meaningless
+main.c(12): warning:  #951-D: return type of function "main" must be "int"
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=2452 RO-data=368 RW-data=40 ZI-data=1632  
+FromELF: creating hex file...
+".\obj\test.axf" - 0 Error(s), 2 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+IO.c(8): error:  #29: expected an expression
+IO.c(4): warning:  #550-D: variable "GPIO_InitStructure" was set but never used
+main.c(12): warning:  #815-D: type qualifier on return type is meaningless
+main.c(12): error:  #951-D: return type of function "main" must be "int"
+main.c(37): error:  #169: expected a declaration
+main.c(45): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+compiling IO.c...
+IO.c(4): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+IO.c(5): warning:  #223-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+IO.c(5): error:  #20: identifier "RCC_APB2Periph_GPIOC" is undefined
+IO.c(5): error:  #20: identifier "ENABLE" is undefined
+IO.c(6): error:  #20: identifier "GPIO_Speed_50MHz" is undefined
+IO.c(7): error:  #20: identifier "GPIO_Mode_Out_PP" is undefined
+IO.c(8): error:  #20: identifier "GPIO_Pin_3" is undefined
+IO.c(8): error:  #20: identifier "GPIO_Pin_4" is undefined
+IO.c(8): error:  #20: identifier "GPIO_Pin_5" is undefined
+IO.c(8): error:  #29: expected an expression
+compiling stm32f10x_gpio.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+compiling stm32f10x_rcc.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+compiling system_stm32f10x.c...
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+Target not created
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+IO.c(9): error:  #29: expected an expression
+IO.c(5): warning:  #550-D: variable "GPIO_InitStructure" was set but never used
+main.c(12): warning:  #815-D: type qualifier on return type is meaningless
+main.c(12): error:  #951-D: return type of function "main" must be "int"
+main.c(37): error:  #169: expected a declaration
+main.c(45): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+compiling IO.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+IO.c(9): error:  #29: expected an expression
+IO.c(5): warning:  #550-D: variable "GPIO_InitStructure" was set but never used
+compiling stm32f10x_gpio.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+compiling stm32f10x_rcc.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+compiling system_stm32f10x.c...
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+Target not created
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+IO.c(11): error:  #29: expected an expression
+IO.c(7): warning:  #550-D: variable "GPIO_InitStructure" was set but never used
+main.c(12): warning:  #815-D: type qualifier on return type is meaningless
+main.c(12): error:  #951-D: return type of function "main" must be "int"
+main.c(37): error:  #169: expected a declaration
+main.c(45): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+compiling IO.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+IO.c(11): error:  #29: expected an expression
+IO.c(7): warning:  #550-D: variable "GPIO_InitStructure" was set but never used
+compiling stm32f10x_gpio.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+compiling stm32f10x_rcc.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+compiling system_stm32f10x.c...
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+Target not created
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+IO.c(12): error:  #29: expected an expression
+IO.c(8): warning:  #550-D: variable "GPIO_InitStructure" was set but never used
+main.c(12): warning:  #815-D: type qualifier on return type is meaningless
+main.c(12): error:  #951-D: return type of function "main" must be "int"
+main.c(37): error:  #169: expected a declaration
+main.c(45): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+compiling IO.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+IO.c(12): error:  #29: expected an expression
+IO.c(8): warning:  #550-D: variable "GPIO_InitStructure" was set but never used
+compiling stm32f10x_gpio.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+compiling stm32f10x_rcc.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+compiling system_stm32f10x.c...
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+Target not created
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+main.c(12): warning:  #815-D: type qualifier on return type is meaningless
+main.c(12): error:  #951-D: return type of function "main" must be "int"
+main.c(15): warning:  #223-D: function "IO_init" declared implicitly
+main.c(37): error:  #169: expected a declaration
+main.c(45): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+compiling IO.c...
+IO.c(4): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+IO.c(5): warning:  #223-D: function "RCC_APB2PeriphClockCmd" declared implicitly
+IO.c(5): error:  #20: identifier "RCC_APB2Periph_GPIOC" is undefined
+IO.c(5): error:  #20: identifier "ENABLE" is undefined
+IO.c(6): error:  #20: identifier "GPIO_Speed_50MHz" is undefined
+IO.c(7): error:  #20: identifier "GPIO_Mode_Out_PP" is undefined
+IO.c(8): error:  #20: identifier "GPIO_Pin_3" is undefined
+IO.c(8): error:  #20: identifier "GPIO_Pin_4" is undefined
+IO.c(8): error:  #20: identifier "GPIO_Pin_5" is undefined
+IO.c(8): error:  #29: expected an expression
+compiling stm32f10x_gpio.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+compiling stm32f10x_rcc.c...
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+compiling system_stm32f10x.c...
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #169: expected a declaration
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(67): error:  #10: "#" not expected here
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1502): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1515): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1529): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1542): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1555): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1569): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1586): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1609): error:  #20: identifier "IRQn_Type" is undefined
+.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h(1699): error:  #20: identifier "SysTick_IRQn" is undefined
+Target not created

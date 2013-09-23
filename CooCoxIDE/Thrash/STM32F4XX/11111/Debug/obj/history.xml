@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -O0 -g -c -DSTM32F407VG -I.">
+      <target file="main.o" lastModified="140eab79812">
+         <source file="..\..\main.c" lastModified="140eab53c95"/>
+      </target>
+   </processor>
+</history>
